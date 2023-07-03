@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgArriendo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_arriendo" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameArriendo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Arriendo"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/texArriendo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameArriendo"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgAlimento"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_alimento" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameAlimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Alimentación"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/texAlimento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameAlimento"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgTransporte"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_locomocion" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameTransporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Transporte"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:id="@+id/texTransporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTransporte"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgBasicos"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_basicos" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameBasicos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gastos Básicos"
+                android:layout_marginTop="5dp"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textBasicos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameBasicos"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgEducacion"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_educacion" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameEducacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Educación"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/texEducacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameEducacion"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgDeudas"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_deudas" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameDeudas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Deudas"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texDeudas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameDeudas"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_margin="5dp"
+        android:elevation="5dp"
+        android:backgroundTint="@color/gold_color"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/imgAhorro"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_ahorros" />
+
+        <RelativeLayout
+            android:layout_width="325dp"
+            android:layout_height="81dp"
+            android:layout_gravity="end"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/nameAhorro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ahorros"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texAhorro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameAhorro"
+                android:layout_marginTop="5dp"
+                android:textColor="#2e2e2e"
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="horizontal"
+        android:gravity="left|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Presupuesto: "
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/gold_color_dark"/>
+
+        <TextView
+            android:id="@+id/text_Presupuesto"
+            android:layout_width="229dp"
+            android:layout_height="44dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

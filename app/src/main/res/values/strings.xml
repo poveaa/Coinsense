@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CoinSense</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="category_name" />
+    <string name="save">Guardar</string>
+    <string name="presupuestos">Presupuestos</string>
+    <string name="categoria01">category_1</string>
+    <string name="categoria02">categoria02</string>
+    <string name="categoria03">categoria03</string>
+    <string name="alerta">alerta</string>
+    <string name="categoria04">categoria04</string>
+    <string name="categoria05">categoria05</string>
+    <string name="categoria06">categoria06</string>
+    <string name="total">total</string>
+    <string name="ingresos">ingresos</string>
+    <string name="gastos">gastos</string>
+    <string name="guardar">guardar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="ahorro">ahorro</string>
+    <string name="calcular">calcular</string>
+    <string name="presupuestoxgasto" />
+
+</resources>
